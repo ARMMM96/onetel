@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  background: #101010;
+  color: #808080;
+  font-family: "Montserrat", sans-serif;
+  /* height: 200rem; */
+}
+a {
+  text-decoration: none;
+  color: #eee;
+}
+
+header {
+  width: 100%;
+  background-color: #000;
+  background-size: cover;
+  position: relative;
+}
+
+.container {
+  max-width: 120rem;
+  width: 90%;
+  margin: 0 auto;
+}
+
+
+.hidden {
+  display: none;
+}
+

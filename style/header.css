@@ -1,0 +1,55 @@
+/* Navigation styling start */
+
+nav {
+    text-transform: uppercase;
+    padding: 0;
+    font-size: 1.6rem;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background: #202020;
+    border: none;
+    border-left: 6px solid #d54ab6;
+    padding-right: 40px;
+    position: relative;
+    top: 30px;
+  }
+  
+  .brand {
+    font-size: 3rem;
+    font-weight: 300;
+    padding: 0 2rem;
+  }
+  
+  .brand span {
+    background-color: #d54ab6;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    display: inline-block;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style: none;
+    padding: 5rem 0;
+  }
+  .active {
+    background-color: gray;
+  }
+  
+  nav ul li a {
+    padding: 1rem 0;
+    margin: 3rem;
+    position: relative;
+    letter-spacing: 2px;
+    transition: 0.5s;
+  }
+  nav ul li a:hover {
+    color: #d54ab6;
+  }
+  
+  /* Navigation styling end */

@@ -1,0 +1,48 @@
+.about {
+  display: flex;
+}
+.about .container {
+  background: #191919;
+  display: flex;
+}
+.about .container div {
+  width: 50%;
+}
+.about div img {
+  width: 100%;
+}
+.about .description {
+  padding: 3rem;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.about .description h2 {
+  font-size: 3rem;
+  color: #fff;
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+.about .description p {
+  font-size: 2rem;
+}
+.about .btn {
+  margin-top: 3rem;
+  border: 0.3rem white solid;
+  padding: 1.5em;
+  background-color: none;
+  font-weight: bold;
+  max-width: 25%;
+  text-align: center;
+  transition: 0.5s;
+
+}
+.about .btn:hover {
+  color: black;
+  background-color: #d54ab6;
+  border: 0.3rem #d54ab6 solid;
+  padding: 1.5em;
+  transition: 0.5s;
+  text-align: center;
+  font-weight: bold;
+}
